@@ -621,3 +621,111 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 17ms (Views: 16.8ms | Allocations: 7980)
 
 
+Started GET "/" for ::1 at 2022-12-14 12:02:00 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 1.5ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 819)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 7431)
+Completed 200 OK in 37ms (Views: 36.5ms | Allocations: 8187)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:02:02 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6293)
+Completed 200 OK in 11ms (Views: 11.2ms | Allocations: 6544)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:02:15 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 815)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 7348)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 7995)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:02:27 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 815)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 7353)
+Completed 200 OK in 17ms (Views: 16.9ms | Allocations: 8017)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:02:54 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 815)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 8631)
+Completed 200 OK in 30ms (Views: 29.8ms | Allocations: 9295)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:03:11 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 815)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 8680)
+Completed 200 OK in 29ms (Views: 27.8ms | Allocations: 9344)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:03:17 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 814)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 7360)
+Completed 200 OK in 23ms (Views: 22.6ms | Allocations: 8025)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:03:26 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 1.2ms | Allocations: 98)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 818)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 8645)
+Completed 200 OK in 43ms (Views: 42.2ms | Allocations: 9309)
+
+
+Started GET "/" for ::1 at 2022-12-14 12:03:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.8ms | Allocations: 99)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 816)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 7423)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 8093)
+
+
