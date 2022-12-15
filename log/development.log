@@ -1116,3 +1116,67 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 184ms (Views: 178.2ms | ActiveRecord: 0.0ms | Allocations: 43630)
 
 
+Started GET "/" for ::1 at 2022-12-15 10:11:11 +0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 127)
+  Rendered shared/_hero.html.erb (Duration: 0.8ms | Allocations: 99)
+  Rendered shared/_card.html.erb (Duration: 0.8ms | Allocations: 175)
+  Rendered shared/_categories.html.erb (Duration: 0.7ms | Allocations: 135)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 102)
+  Rendered pages/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1657)
+  Rendered layout layouts/application.html.erb (Duration: 88.1ms | Allocations: 35230)
+Completed 200 OK in 96ms (Views: 91.7ms | ActiveRecord: 0.0ms | Allocations: 37462)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:11:54 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 175)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1379)
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 11662)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms | Allocations: 12365)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:12:01 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 113)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 175)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1379)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7908)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 8605)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4886762910964293345)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddKeysToComments (20221215021409)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.4ms)[0m  [1m[35mALTER TABLE "comments" ADD "users_id" bigint NOT NULL[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE INDEX "index_comments_on_users_id" ON "comments" ("users_id")[0m
+  [1m[35m (7.6ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_1e28850acb"
+FOREIGN KEY ("users_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "comments" ADD "articles_id" bigint NOT NULL[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE INDEX "index_comments_on_articles_id" ON "comments" ("articles_id")[0m
+  [1m[35m (1.6ms)[0m  [1m[35mALTER TABLE "comments" ADD CONSTRAINT "fk_rails_d8ed532d4e"
+FOREIGN KEY ("articles_id")
+  REFERENCES "articles" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20221215021409"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4886762910964293345)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
