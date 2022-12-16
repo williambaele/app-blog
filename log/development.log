@@ -1628,3 +1628,1532 @@ FOREIGN KEY ("user_id")
   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4886762910964293345)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-12-15 10:49:38 +0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_hero.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_card.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 346)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 6910)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 7500)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:49:41 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 237)
+  Rendered devise/shared/_links.html.erb (Duration: 2.5ms | Allocations: 579)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 44.2ms | Allocations: 7431)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 13698)
+Completed 200 OK in 82ms (Views: 56.1ms | ActiveRecord: 7.2ms | Allocations: 20720)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:11 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2436)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 9988)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 11222)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:20 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2435)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 8775)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 10007)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:20 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 7125)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7722)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:33 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2436)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 8721)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9857)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:33 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 7125)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 7723)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:42 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2435)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 8887)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 10035)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:42 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 7306)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 7924)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:43 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 7289)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 7803)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:50:52 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2438)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 8741)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 9875)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:51:00 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2435)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 8720)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9955)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:51:00 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7125)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7727)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:51:21 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2446)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 8731)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 9888)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 10:51:21 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 7125)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 7726)
+
+
+Started POST "/users" for ::1 at 2022-12-15 10:51:44 +0800
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"baelewilliam1999@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "baelewilliam1999@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (3.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "baelewilliam1999@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2022-12-15 02:51:44.852024"], ["updated_at", "2022-12-15 02:51:44.852024"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to 
+Completed 500 Internal Server Error in 265ms (ActiveRecord: 5.4ms | Allocations: 16129)
+
+
+  
+NoMethodError (undefined method `user_url' for #<Devise::RegistrationsController:0x00000000012048>
+
+              recipient.public_send(method, *args)
+                       ^^^^^^^^^^^^):
+  
+actionpack (7.0.4) lib/action_dispatch/routing/polymorphic_routes.rb:231:in `public_send'
+actionpack (7.0.4) lib/action_dispatch/routing/polymorphic_routes.rb:231:in `polymorphic_method'
+actionpack (7.0.4) lib/action_dispatch/routing/polymorphic_routes.rb:116:in `polymorphic_url'
+actionpack (7.0.4) lib/action_dispatch/routing/url_for.rb:187:in `full_url_for'
+actionpack (7.0.4) lib/action_dispatch/routing/url_for.rb:170:in `url_for'
+actionpack (7.0.4) lib/action_controller/metal/redirecting.rb:144:in `_compute_redirect_to_location'
+actionpack (7.0.4) lib/action_controller/metal/redirecting.rb:89:in `redirect_to'
+actionpack (7.0.4) lib/action_controller/metal/flash.rb:62:in `redirect_to'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:42:in `block in redirect_to'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:41:in `redirect_to'
+responders (3.0.1) lib/action_controller/responder.rb:147:in `redirect_to'
+responders (3.0.1) lib/action_controller/responder.rb:207:in `navigation_behavior'
+responders (3.0.1) lib/action_controller/responder.rb:174:in `rescue in to_html'
+responders (3.0.1) lib/action_controller/responder.rb:171:in `to_html'
+responders (3.0.1) lib/action_controller/responder.rb:165:in `respond'
+responders (3.0.1) lib/action_controller/responder.rb:158:in `call'
+responders (3.0.1) lib/action_controller/respond_with.rb:213:in `respond_with'
+devise (4.8.1) app/controllers/devise/registrations_controller.rb:25:in `create'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-12-15 10:53:23 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 17.9ms | Allocations: 5066)
+  Rendered pages/index.html.erb within layouts/application (Duration: 20.7ms | Allocations: 5387)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 5472)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 6147)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<ActionView::Base:0x00000000012408>
+
+                '.freeze;@output_buffer.append=  link_to new_user_registration do @output_buffer.safe_append='
+                                                         ^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    10: 
+    11:             <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+    12:                 <!-- Menu open: "hidden", Menu closed: "block" -->
+    13:                 <%= link_to new_user_registration do %>
+    14:                   <a href="#" title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+    15:                 <% end %>
+    16:                 <!-- Menu open: "block", Menu closed: "hidden" -->
+  
+app/views/shared/_header.html.erb:13
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 10:53:31 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 13.3ms | Allocations: 4989)
+  Rendered pages/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 5308)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5393)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 6057)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<ActionView::Base:0x00000000012750>
+
+'.freeze;                 link_to new_user_registration do 
+                                  ^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    10: 
+    11:             <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+    12:                 <!-- Menu open: "hidden", Menu closed: "block" -->
+    13:                 <% link_to new_user_registration do %>
+    14:                   <a href="#" title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+    15:                 <% end %>
+    16:                 <!-- Menu open: "block", Menu closed: "hidden" -->
+  
+app/views/shared/_header.html.erb:13
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 10:53:32 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 13.0ms | Allocations: 4800)
+  Rendered pages/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 4866)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 4945)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 5178)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<ActionView::Base:0x00000000012a20>
+
+'.freeze;                 link_to new_user_registration do 
+                                  ^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    10: 
+    11:             <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+    12:                 <!-- Menu open: "hidden", Menu closed: "block" -->
+    13:                 <% link_to new_user_registration do %>
+    14:                   <a href="#" title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+    15:                 <% end %>
+    16:                 <!-- Menu open: "block", Menu closed: "hidden" -->
+  
+app/views/shared/_header.html.erb:13
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 10:53:39 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 231)
+  Rendered shared/_hero.html.erb (Duration: 1.0ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.9ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1504)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 8207)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 8882)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:53:40 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 6434)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 6694)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:53:42 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 230)
+  Rendered shared/_hero.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.5ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1495)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 8005)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 8683)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:53:59 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 1285)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1604)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1690)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2360)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <header class="pb-6 lg:pb-0 bg-slate-100">
+    <div class="px-4 mx-auto max-w-7xl sm:px-0 lg:px-8">
+        <!-- lg+ -->
+        <nav class="flex items-center justify-between h-16 lg:h-20">
+            <div class="flex-shrink-0">
+                <a href="#" title="" class="flex">
+                   <span class="ml-3 text-3xl">Rails Blog<span class="text-[#005691] text-3xl">.</span></span>
+                </a>
+            </div>
+
+            <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+                <!-- Menu open: "hidden", Menu closed: "block" -->
+                <% =link_to "new_user_registration" do %>
+                  <a href="#" title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+                <% end %>
+                <!-- Menu open: "block", Menu closed: "hidden" -->
+                <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+                <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Categories </a>
+
+                <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Random article </a>
+            </div>
+
+            <a href="#" title="" class="items-center justify-center hidden px-10 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#005691] border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+        </nav>
+    </div>
+</header>
+
+):
+1:    <header class="pb-6 lg:pb-0 bg-slate-100">
+2:        <div class="px-4 mx-auto max-w-7xl sm:px-0 lg:px-8">
+3:            <!-- lg+ -->
+4:            <nav class="flex items-center justify-between h-16 lg:h-20">
+5:                <div class="flex-shrink-0">
+6:                    <a href="#" title="" class="flex">
+7:                       <span class="ml-3 text-3xl">Rails Blog<span class="text-[#005691] text-3xl">.</span></span>
+8:                    </a>
+9:                </div>
+10:    
+11:                <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+12:                    <!-- Menu open: "hidden", Menu closed: "block" -->
+13:                    <% =link_to "new_user_registration" do %>
+14:                      <a href="#" title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+15:                    <% end %>
+16:                    <!-- Menu open: "block", Menu closed: "hidden" -->
+17:                    <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+18:                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+19:                    </svg>
+20:                </button>
+21:    
+22:                <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+23:                    <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Categories </a>
+24:    
+25:                    <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Random article </a>
+26:                </div>
+27:    
+28:                <a href="#" title="" class="items-center justify-center hidden px-10 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#005691] border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+29:            </nav>
+30:        </div>
+31:    </header>
+  
+app/views/shared/_header.html.erb:13: syntax error, unexpected '=', expecting `end'
+app/views/shared/_header.html.erb:13: syntax error, unexpected '=', expecting `end'
+app/views/shared/_header.html.erb:13: syntax error, unexpected '=', expecting `end'
+app/views/shared/_header.html.erb:13: syntax error, unexpected '=', expecting `end'
+app/views/shared/_header.html.erb:13: syntax error, unexpected '=', expecting `end'
+app/views/shared/_header.html.erb:13: syntax error, unexpected '=', expecting `end'
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 10:54:06 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered shared/_hero.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.7ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1504)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 8204)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 8897)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:07 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6434)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6694)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:08 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6449)
+Completed 200 OK in 14ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 6691)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:08 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 6449)
+Completed 200 OK in 10ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 6689)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:09 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6630)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 6871)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:18 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 231)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.5ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1499)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 8015)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 8691)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:20 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6425)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6683)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:21 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6425)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 6666)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:22 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 230)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.4ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1496)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 8187)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 8863)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:32 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 230)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1495)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 8017)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 8711)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 229)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1494)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 8009)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 8706)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:35 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 6623)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 6884)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:54:58 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 14.5ms | Allocations: 5016)
+  Rendered pages/index.html.erb within layouts/application (Duration: 15.9ms | Allocations: 5340)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 5425)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 6072)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<ActionView::Base:0x00000000013ab0>
+
+                '.freeze;@output_buffer.append=  link_to new_user_registration do @output_buffer.safe_append='
+                                                         ^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    10: 
+    11:             <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+    12:                 <!-- Menu open: "hidden", Menu closed: "block" -->
+    13:                 <%= link_to new_user_registration do %>
+    14:                   <a title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+    15:                 <% end %>
+    16:                 <!-- Menu open: "block", Menu closed: "hidden" -->
+  
+app/views/shared/_header.html.erb:13
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 10:55:22 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered shared/_hero.html.erb (Duration: 1.1ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.0ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 1.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1550)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 8249)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 8943)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:24 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6481)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6741)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:25 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_hero.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6463)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 6705)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:32 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 266)
+  Rendered shared/_hero.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.7ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 1.2ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1531)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 8043)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 8719)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6460)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 6720)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 6457)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6699)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 55)
+  Rendered shared/_hero.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 6448)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 6690)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:35 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 265)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1531)
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 8218)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 8897)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:35 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6638)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6897)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:55:46 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 266)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1536)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 8054)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 8730)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:56:27 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 231)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1496)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 8009)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 8703)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:56:29 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 6422)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 6680)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:57:23 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 229)
+  Rendered shared/_hero.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1494)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 7998)
+Completed 200 OK in 50ms (Views: 50.1ms | Allocations: 8665)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:57:40 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 229)
+  Rendered shared/_hero.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.0ms | Allocations: 177)
+  Rendered shared/_categories.html.erb (Duration: 0.8ms | Allocations: 135)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 36.5ms | Allocations: 1504)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 8193)
+Completed 200 OK in 58ms (Views: 57.8ms | Allocations: 8878)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:57:42 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6446)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 6700)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:02 +0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 299)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered shared/_card.html.erb (Duration: 0.4ms | Allocations: 175)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 135)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1824)
+  Rendered layout layouts/application.html.erb (Duration: 125.7ms | Allocations: 41535)
+Completed 200 OK in 137ms (Views: 131.2ms | ActiveRecord: 0.0ms | Allocations: 43765)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:04 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 384)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 6549)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6847)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:05 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 229)
+  Rendered shared/_hero.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.8ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1494)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 8002)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 8681)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:05 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 6453)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 6716)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:05 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6434)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 6676)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:42 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 297)
+  Rendered shared/_hero.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1562)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 8092)
+Completed 200 OK in 32ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 8769)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:46 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 294)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1562)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 8091)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 8785)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:58:47 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 378)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6458)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 6718)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:59:00 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 294)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.4ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1560)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 8072)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 8749)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:59:08 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 295)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1560)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 8086)
+Completed 200 OK in 14ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8783)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:59:26 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 295)
+  Rendered shared/_hero.html.erb (Duration: 1.0ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.8ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1560)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 8077)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 8771)
+
+
+Started GET "/" for ::1 at 2022-12-15 10:59:43 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 295)
+  Rendered shared/_hero.html.erb (Duration: 1.5ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.8ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1561)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 8074)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 8768)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:00:12 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 927)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.5ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2192)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 8698)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 9392)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:00:13 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 121)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 437)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 6523)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6781)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:00:28 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 383)
+  Rendered shared/_hero.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.7ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.9ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1648)
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 8166)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms | Allocations: 8842)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:00:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 380)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 2.5ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1645)
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 8168)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 8863)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:01:56 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 294)
+  Rendered shared/_hero.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 1.5ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1562)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 8081)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 8776)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:02:00 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 294)
+  Rendered shared/_hero.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.3ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1559)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 8088)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 8782)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:03:52 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 418)
+  Rendered shared/_hero.html.erb (Duration: 1.0ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.7ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.7ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1683)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 8195)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 8889)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:03:58 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 329)
+  Rendered shared/_hero.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.0ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.7ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1595)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 8132)
+Completed 200 OK in 21ms (Views: 21.0ms | Allocations: 8817)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:04:18 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 330)
+  Rendered shared/_hero.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.8ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.7ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1595)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 8107)
+Completed 200 OK in 25ms (Views: 24.7ms | Allocations: 8791)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:04:19 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6479)
+Completed 200 OK in 8ms (Views: 8.1ms | Allocations: 6733)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:05:37 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 41.3ms | Allocations: 10660)
+  Rendered pages/index.html.erb within layouts/application (Duration: 42.8ms | Allocations: 10991)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 11076)
+Completed 500 Internal Server Error in 45ms (Allocations: 11735)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<ActionView::Base:0x0000000000d7a0>
+
+            '.freeze;@output_buffer.append=  link_to new_user_registration do @output_buffer.safe_append='
+                                                     ^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    24: 
+    25:                 <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Random article </a>
+    26:             </div>
+    27:             <%= link_to new_user_registration do %>
+    28:               <a class="items-center justify-center hidden px-10 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#005691] border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"> ok </a>
+    29:             <% end %>
+    30:         </nav>
+  
+app/views/shared/_header.html.erb:27
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 11:05:38 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 16.3ms | Allocations: 4952)
+  Rendered pages/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 5018)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 5097)
+Completed 500 Internal Server Error in 18ms (Allocations: 5344)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<ActionView::Base:0x0000000000da98>
+
+            '.freeze;@output_buffer.append=  link_to new_user_registration do @output_buffer.safe_append='
+                                                     ^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    24: 
+    25:                 <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Random article </a>
+    26:             </div>
+    27:             <%= link_to new_user_registration do %>
+    28:               <a class="items-center justify-center hidden px-10 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#005691] border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"> ok </a>
+    29:             <% end %>
+    30:         </nav>
+  
+app/views/shared/_header.html.erb:27
+app/views/pages/index.html.erb:1
+Started GET "/" for ::1 at 2022-12-15 11:06:08 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 330)
+  Rendered shared/_hero.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.9ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.9ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1595)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 8291)
+Completed 200 OK in 28ms (Views: 27.3ms | Allocations: 8957)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:06:20 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 329)
+  Rendered shared/_hero.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1594)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 8106)
+Completed 200 OK in 19ms (Views: 18.7ms | Allocations: 8790)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:06:34 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 330)
+  Rendered shared/_hero.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.3ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1595)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 8095)
+Completed 200 OK in 29ms (Views: 29.1ms | Allocations: 8779)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:06:49 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 330)
+  Rendered shared/_hero.html.erb (Duration: 1.1ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 0.9ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1595)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 8110)
+Completed 200 OK in 29ms (Views: 28.4ms | Allocations: 8794)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:06:50 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 79)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6466)
+Completed 200 OK in 11ms (Views: 10.9ms | Allocations: 6720)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:06:51 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered shared/_hero.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_card.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_categories.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 6472)
+Completed 200 OK in 10ms (Views: 10.3ms | Allocations: 6709)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:06:52 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.5ms | Allocations: 239)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 577)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.8ms | Allocations: 4828)
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 11088)
+Completed 200 OK in 68ms (Views: 35.4ms | ActiveRecord: 12.5ms | Allocations: 21006)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:06:55 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1217)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 7151)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 7793)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:11:40 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.6ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 2.5ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 17.8ms | Allocations: 2453)
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 8905)
+Completed 200 OK in 60ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 10042)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:11:41 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7125)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 7719)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:11:57 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2441)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 8726)
+Completed 200 OK in 66ms (Views: 65.0ms | Allocations: 9848)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:11:57 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7125)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 7716)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:12:04 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2441)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 8726)
+Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 9859)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:12:05 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 7125)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 7749)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:12:44 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2441)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 10204)
+Completed 200 OK in 46ms (Views: 45.7ms | Allocations: 11344)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:17:10 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2443)
+  Rendered layout layouts/application.html.erb (Duration: 277.3ms | Allocations: 45456)
+Completed 500 Internal Server Error in 283ms (Allocations: 46666)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:17:25 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 7409)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 8038)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:17:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2441)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 10094)
+Completed 200 OK in 29ms (Views: 28.5ms | Allocations: 11232)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:18:07 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2441)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 8848)
+Completed 200 OK in 28ms (Views: 27.1ms | Allocations: 10077)
+
+
+Started GET "/" for ::1 at 2022-12-15 11:18:15 +0800
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 329)
+  Rendered shared/_hero.html.erb (Duration: 1.2ms | Allocations: 98)
+  Rendered shared/_card.html.erb (Duration: 1.4ms | Allocations: 174)
+  Rendered shared/_categories.html.erb (Duration: 1.0ms | Allocations: 134)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1597)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 8244)
+Completed 200 OK in 23ms (Views: 22.9ms | Allocations: 8929)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:18:16 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2439)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 8587)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 9576)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-15 11:18:30 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 194)
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 471)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2442)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 8792)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 10009)
+
+

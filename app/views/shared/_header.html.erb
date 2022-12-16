@@ -10,7 +10,9 @@
 
             <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
                 <!-- Menu open: "hidden", Menu closed: "block" -->
-                  <a href="#" title="" class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+                <%= link_to '/users/sign_up' do %>
+                  <a class="items-center justify-center px-6 py-3 ml-6 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:inline-flex hover:bg-blue-700 focus:bg-blue-700"> Login </a>
+                <% end %>
                 <!-- Menu open: "block", Menu closed: "hidden" -->
                 <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -22,8 +24,9 @@
 
                 <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Random article </a>
             </div>
-
-            <a href="#" title="" class="items-center justify-center hidden px-10 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#005691] border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Login </a>
+            <%= link_to new_user_registration_path do %>
+              <p class="items-center justify-center  px-10 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#005691] border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> ok </p>
+            <% end %>
         </nav>
     </div>
 </header>
